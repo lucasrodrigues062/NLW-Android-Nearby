@@ -11,7 +11,12 @@
                 <map>
                   <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/data/model/Market.kt" value="258517" />
                   <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/data/model/Rule.kt" value="268532" />
-                  <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/ui/component/market/MarketCard.kt" value="359284" />
+                  <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/ui/component/market/MarketCard.kt" value="0" />
+                  <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/ui/component/market/MarketCardList.kt" value="383680" />
+                  <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/ui/component/market/MarketCard_.kt" value="383680" />
+                  <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/ui/component/marketdetails/MarketDetails.kt" value="421043" />
+                  <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/ui/component/marketdetails/MarketDetailsCoupons.kt" value="477236" />
+                  <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/ui/component/marketdetails/MarketDetailsRules.kt" value="439197" />
                 </map>
               </option>
               <option name="projectId" value="01JERQNWBC9XJFXZXFPXT96933" />

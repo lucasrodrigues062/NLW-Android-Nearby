@@ -107,7 +107,7 @@ private fun MarketCardPreview() {
 }
 
 
-fun createMockMarket(): Market {
+private fun createMockMarket(): Market {
     return Market(
         id = "1",
         categoryId = "101",
