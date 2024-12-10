@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectStateService">
+    <option name="data">
+      <map>
+        <entry key="rodrigues.lucas@zup.com.br">
+          <value>
+            <ProjectStateData>
+              <option name="conversationId" value="01JERQNWC79PTCBDB1AKWB77A1" />
+              <option name="indexedFiles">
+                <map>
+                  <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/data/model/Market.kt" value="258517" />
+                  <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/data/model/Rule.kt" value="268532" />
+                  <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/ui/component/market/MarketCard.kt" value="359284" />
+                </map>
+              </option>
+              <option name="projectId" value="01JERQNWBC9XJFXZXFPXT96933" />
+            </ProjectStateData>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
