@@ -41,22 +41,11 @@ fun MarketCardList(
 private fun MarketCardListPreview() {
     MarketCardList(
         Modifier.fillMaxWidth(),
-        listOf(createMockMarket("1"), createMockMarket("2")),
+        listOf(
+            com.example.nearby.utils.createMockMarket("1"),
+            com.example.nearby.utils.createMockMarket("2")
+        ),
         onMarketClick = {})
 }
 
 
-private fun createMockMarket(id: String = "1"): Market {
-    return Market(
-        id = id,
-        categoryId = "101",
-        name = "Supermercado Central",
-        description = "Um supermercado completo com produtos de qualidade.",
-        coupons = 1,
-        latitude = -23.55052,
-        longitude = -46.633308,
-        address = "Rua Central, 123, São Paulo, SP",
-        phone = "+55 11 98765-4321",
-        cover = "https://example.com/images/market-cover.jpg"
-    )
-}
