@@ -9,7 +9,10 @@
               <option name="conversationId" value="01JEV9ZYJYP7M9WN5KP05YPBMQ" />
               <option name="indexedFiles">
                 <map>
+                  <entry key="$PROJECT_DIR$/app/build.gradle.kts" value="124023" />
                   <entry key="$PROJECT_DIR$/app/build/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json" value="62396" />
+                  <entry key="$PROJECT_DIR$/app/build/intermediates/apk/debug/output-metadata.json" value="173457" />
+                  <entry key="$PROJECT_DIR$/app/build/intermediates/apk_ide_redirect_file/debug/createDebugApkListingFileRedirect/redirect.txt" value="150066" />
                   <entry key="$PROJECT_DIR$/app/build/intermediates/compatible_screen_manifest/debug/createDebugCompatibleScreenManifests/output-metadata.json" value="62490" />
                   <entry key="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-af/values-af.xml" value="62593" />
                   <entry key="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-am/values-am.xml" value="62678" />
@@ -102,7 +105,8 @@
                   <entry key="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merger.xml" value="62540" />
                   <entry key="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir/values/values.xml" value="62586" />
                   <entry key="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/merger.xml" value="62538" />
-                  <entry key="$PROJECT_DIR$/app/build/intermediates/linked_resources_binary_format/debug/processDebugResources/output-metadata.json" value="62449" />
+                  <entry key="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" value="173482" />
+                  <entry key="$PROJECT_DIR$/app/build/intermediates/linked_resources_binary_format/debug/processDebugResources/output-metadata.json" value="150078" />
                   <entry key="$PROJECT_DIR$/app/build/intermediates/local_only_symbol_list/debug/parseDebugLocalResources/R-def.txt" value="62393" />
                   <entry key="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/processDebugMainManifest/manifest-merger-blame-debug-report.txt" value="62444" />
                   <entry key="$PROJECT_DIR$/app/build/intermediates/merged_manifest/debug/processDebugMainManifest/AndroidManifest.xml" value="62385" />
@@ -201,24 +205,30 @@
                   <entry key="$PROJECT_DIR$/app/build/intermediates/navigation_json/debug/extractDeepLinksDebug/navigation.json" value="62386" />
                   <entry key="$PROJECT_DIR$/app/build/intermediates/nested_resources_validation_report/debug/generateDebugResources/nestedResourcesValidationReport.txt" value="62486" />
                   <entry key="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/processDebugManifestForPackage/AndroidManifest.xml" value="62387" />
-                  <entry key="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/processDebugManifestForPackage/output-metadata.json" value="62388" />
+                  <entry key="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/processDebugManifestForPackage/output-metadata.json" value="0" />
                   <entry key="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/packageDebugResources/values/values.xml" value="62572" />
-                  <entry key="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/debug/processDebugResources/R.txt" value="62392" />
+                  <entry key="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/debug/processDebugResources/R.txt" value="150065" />
+                  <entry key="$PROJECT_DIR$/app/build/intermediates/signing_config_versions/debug/writeDebugSigningConfigVersions/signing-config-versions.json" value="150069" />
                   <entry key="$PROJECT_DIR$/app/build/intermediates/source_set_path_map/debug/mapDebugSourceSetPaths/file-map.txt" value="62389" />
-                  <entry key="$PROJECT_DIR$/app/build/intermediates/stable_resource_ids_file/debug/processDebugResources/stableIds.txt" value="62395" />
-                  <entry key="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/processDebugResources/package-aware-r.txt" value="62394" />
+                  <entry key="$PROJECT_DIR$/app/build/intermediates/stable_resource_ids_file/debug/processDebugResources/stableIds.txt" value="150067" />
+                  <entry key="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/processDebugResources/package-aware-r.txt" value="150080" />
                   <entry key="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" value="62373" />
-                  <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/data/model/Market.kt" value="258517" />
-                  <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/data/model/Rule.kt" value="0" />
+                  <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/MainActivity.kt" value="185075" />
+                  <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/data/model/Market.kt" value="157590" />
+                  <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/data/model/Rule.kt" value="157023" />
                   <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/ui/component/market/MarketCard.kt" value="0" />
                   <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/ui/component/market/MarketCardList.kt" value="99651" />
                   <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/ui/component/market/MarketCard_.kt" value="383680" />
                   <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/ui/component/marketdetails/MarketDetails.kt" value="421043" />
                   <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/ui/component/marketdetails/MarketDetailsCoupons.kt" value="477236" />
+                  <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/ui/component/marketdetails/MarketDetailsInfo.kt" value="173701" />
                   <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/ui/component/marketdetails/MarketDetailsRules.kt" value="439197" />
-                  <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/ui/component/screen/HomeScreen.kt" value="99864" />
-                  <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/ui/component/screen/MarketDetailsScreen.kt" value="105052" />
-                  <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/utils/MockFunctions.kt" value="103165" />
+                  <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/ui/component/screen/HomeScreen.kt" value="166145" />
+                  <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/ui/component/screen/MarketDetailsScreen.kt" value="185521" />
+                  <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/ui/component/screen/SplashScreen.kt" value="141359" />
+                  <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/ui/component/screen/WelcomeScreen.kt" value="151816" />
+                  <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/ui/component/screen/route/UIRoute.kt" value="155409" />
+                  <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/utils/MockFunctions.kt" value="157931" />
                 </map>
               </option>
               <option name="projectId" value="01JERQNWBC9XJFXZXFPXT96933" />

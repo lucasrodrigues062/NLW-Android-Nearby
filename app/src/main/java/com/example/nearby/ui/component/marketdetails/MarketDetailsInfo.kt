@@ -70,22 +70,3 @@ fun MarketDetailsInfo(modifier: Modifier = Modifier, market: Market) {
     }
 }
 
-@Preview
-@Composable
-private fun MarketDetailsPreview() {
-    MarketDetailsInfo(Modifier.fillMaxWidth(), createMockMarket())
-}
-private fun createMockMarket(id: String = "1"): Market {
-    return Market(
-        id = id,
-        categoryId = "101",
-        name = "Supermercado Central",
-        description = "Um supermercado completo com produtos de qualidade.",
-        coupons = 1,
-        latitude = -23.55052,
-        longitude = -46.633308,
-        address = "Rua Central, 123, São Paulo, SP",
-        phone = "+55 11 98765-4321",
-        cover = "https://example.com/images/market-cover.jpg"
-    )
-}

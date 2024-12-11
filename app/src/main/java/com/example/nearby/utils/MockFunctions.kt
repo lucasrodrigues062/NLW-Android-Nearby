@@ -15,7 +15,7 @@ fun createMockMarket(id: String = "1"): Market {
         address = "Rua Central, 123, São Paulo, SP",
         phone = "+55 11 98765-4321",
         cover = "https://example.com/images/market-cover.jpg",
-        rules = createRules(id)
+        //rules = createRules(id)
         )
 }
 
