@@ -1,4 +1,4 @@
-package com.example.nearby.ui.component.screen.route
+package com.example.nearby.ui.screen.route
 
 import kotlinx.serialization.Serializable
 

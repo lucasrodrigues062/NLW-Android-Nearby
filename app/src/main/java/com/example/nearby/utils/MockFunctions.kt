@@ -2,6 +2,7 @@ package com.example.nearby.utils
 
 import com.example.nearby.data.model.Market
 import com.example.nearby.data.model.Rule
+import com.google.android.gms.maps.model.LatLng
 
 fun createMockMarket(id: String = "1"): Market {
     return Market(
@@ -36,3 +37,8 @@ fun createRules(marketId: String): List<Rule> {
     )
 
 }
+
+val mockUserLocation = LatLng(
+    -23.561187293883442,
+    -46.656451388116494
+)

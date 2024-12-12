@@ -28,5 +28,5 @@ data class MarketDetails (
     val address: String,
     val phone: String,
     val cover: String,
-    val rule: List<Rule> = emptyList()
+    val rules: List<Rule> = emptyList()
 )

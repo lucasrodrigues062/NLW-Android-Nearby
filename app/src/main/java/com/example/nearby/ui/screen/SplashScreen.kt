@@ -1,4 +1,4 @@
-package com.example.nearby.ui.component.screen
+package com.example.nearby.ui.screen
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
