@@ -9,6 +9,7 @@ import androidx.compose.material3.BottomSheetScaffold
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.rememberBottomSheetScaffoldState
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -28,11 +29,20 @@ import com.google.maps.android.compose.GoogleMap
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun HomeScreen(modifier: Modifier = Modifier, onNavigateToMarketDetails: (Market) -> Unit) {
+fun HomeScreen(
+    modifier: Modifier = Modifier,
+    uiState: HomeUiState,
+    onEvent: (HomeUiEvent) -> Unit,
+    onNavigateToMarketDetails: (Market) -> Unit
+) {
 
     val bottomSheetState = rememberBottomSheetScaffoldState()
     var isBottomSheetOpened by remember { mutableStateOf(true) }
     val configuration = LocalConfiguration.current
+
+    LaunchedEffect(key1 = true) {
+        onEvent(HomeUiEvent.OnFetchCategories)
+    }
 
     if (isBottomSheetOpened) {
         BottomSheetScaffold(
@@ -42,15 +52,14 @@ fun HomeScreen(modifier: Modifier = Modifier, onNavigateToMarketDetails: (Market
             sheetPeekHeight = configuration.screenHeightDp.dp * 0.5f,
             sheetShape = RoundedCornerShape(topStart = 16.dp, topEnd = 16.dp),
             sheetContent = {
-                MarketCardList(modifier = Modifier
-                    .fillMaxSize()
-                    .padding(16.dp),
-                    markets = listOf(
-                        createMockMarket("1"),
-                        createMockMarket("2"),
-                        createMockMarket("3")
-                    ),
-                    onMarketClick = {selectedMarket -> onNavigateToMarketDetails(selectedMarket)})
+                if (!uiState.markets.isNullOrEmpty()) {
+                    MarketCardList(modifier = Modifier
+                        .fillMaxSize()
+                        .padding(16.dp),
+                        markets = uiState.markets,
+                        onMarketClick = { selectedMarket -> onNavigateToMarketDetails(selectedMarket) })
+                }
+
             },
             content = {
                 Box(
@@ -59,20 +68,21 @@ fun HomeScreen(modifier: Modifier = Modifier, onNavigateToMarketDetails: (Market
                         .padding(it)
                 ) {
                     GoogleMap(modifier = Modifier.fillMaxSize())
-                    NearbyCategoryFilterChipList(
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .padding(top = 24.dp)
-                            .align(Alignment.TopStart),
-                        categories = listOf(
-                            Category("1", "Mercado"),
-                            Category("2", "Supermercado"),
-                            Category("3", "Farmácia"),
-                            Category("4", "Restaurante"),
-                            Category("5", "Lanchonete"),
-                            Category("6", "Outros")
+                    if (!uiState.categories.isNullOrEmpty()) {
+                        NearbyCategoryFilterChipList(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .padding(top = 24.dp)
+                                .align(Alignment.TopStart),
+                            categories = uiState.categories,
+                            onSelectedCategoryChange = { selectedCategory ->
+                                onEvent(
+                                    HomeUiEvent.OnFetchMarkets(selectedCategory.id)
+                                )
+                            }
                         )
-                    ) { }
+                    }
+
                 }
 
             },

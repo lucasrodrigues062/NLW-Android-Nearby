@@ -24,7 +24,7 @@
                   <entry key="$PROJECT_DIR$/api-nodejs/node_modules/.prisma/client/wasm.d.ts" value="77000" />
                   <entry key="$PROJECT_DIR$/api-nodejs/node_modules/.prisma/client/wasm.js" value="76997" />
                   <entry key="$PROJECT_DIR$/api-nodejs/package-lock.json" value="76988" />
-                  <entry key="$PROJECT_DIR$/app/build.gradle.kts" value="124023" />
+                  <entry key="$PROJECT_DIR$/app/build.gradle.kts" value="304935" />
                   <entry key="$PROJECT_DIR$/app/build/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json" value="62396" />
                   <entry key="$PROJECT_DIR$/app/build/intermediates/apk/debug/output-metadata.json" value="185826" />
                   <entry key="$PROJECT_DIR$/app/build/intermediates/apk_ide_redirect_file/debug/createDebugApkListingFileRedirect/redirect.txt" value="150066" />
@@ -229,16 +229,16 @@
                   <entry key="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/processDebugResources/package-aware-r.txt" value="150080" />
                   <entry key="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" value="62373" />
                   <entry key="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" value="79879" />
-                  <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/MainActivity.kt" value="81789" />
+                  <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/MainActivity.kt" value="253980" />
                   <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/core/network/KtorHttpClient.kt" value="34928" />
-                  <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/core/network/RemoteDataSource.kt" value="75722" />
+                  <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/core/network/RemoteDataSource.kt" value="314754" />
                   <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/data/model/Category.kt" value="80175" />
                   <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/data/model/CategoryFilterChipView.kt" value="0" />
                   <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/data/model/Coupon.kt" value="80667" />
                   <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/data/model/Market.kt" value="231215" />
                   <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/data/model/Rule.kt" value="0" />
-                  <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/ui/component/market/MarketCard.kt" value="0" />
-                  <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/ui/component/market/MarketCardList.kt" value="99651" />
+                  <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/ui/component/market/MarketCard.kt" value="284876" />
+                  <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/ui/component/market/MarketCardList.kt" value="0" />
                   <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/ui/component/market/MarketCard_.kt" value="383680" />
                   <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/ui/component/marketdetails/MarketDetails.kt" value="421043" />
                   <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/ui/component/marketdetails/MarketDetailsCoupons.kt" value="477236" />
@@ -249,15 +249,15 @@
                   <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/ui/component/screen/SplashScreen.kt" value="141359" />
                   <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/ui/component/screen/WelcomeScreen.kt" value="151816" />
                   <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/ui/component/screen/route/UIRoute.kt" value="155409" />
-                  <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/ui/screen/HomeScreen.kt" value="81077" />
-                  <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/ui/screen/HomeViewModel.kt" value="172229" />
+                  <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/ui/screen/HomeScreen.kt" value="280165" />
+                  <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/ui/screen/HomeViewModel.kt" value="313107" />
                   <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/ui/screen/MarketDetailsScreen.kt" value="81560" />
                   <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/ui/screen/MarketDetailsViewModel.kt" value="237009" />
                   <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/ui/screen/SplashScreen.kt" value="81706" />
                   <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/ui/screen/WelcomeScreen.kt" value="81035" />
                   <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/ui/screen/route/UIRoute.kt" value="80993" />
                   <entry key="$PROJECT_DIR$/app/src/main/java/com/example/nearby/utils/MockFunctions.kt" value="157931" />
-                  <entry key="$PROJECT_DIR$/app/src/main/res/xml/network_security_config.xml" value="79713" />
+                  <entry key="$PROJECT_DIR$/app/src/main/res/xml/network_security_config.xml" value="310496" />
                 </map>
               </option>
               <option name="projectId" value="01JERQNWBC9XJFXZXFPXT96933" />

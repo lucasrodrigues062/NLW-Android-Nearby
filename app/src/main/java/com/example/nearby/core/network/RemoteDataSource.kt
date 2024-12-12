@@ -10,28 +10,44 @@ import io.ktor.client.request.get
 import io.ktor.client.request.patch
 
 object RemoteDataSource {
-    private const val LOCAL_HOST_EMULATOR_BASE_URL = "http://10.0.0.2:3333/"
+    private const val LOCAL_HOST_EMULATOR_BASE_URL = "http://10.0.2.2:3333"
 
     private const val BASE_URL = LOCAL_HOST_EMULATOR_BASE_URL
 
-    suspend fun getCategories(): Result<List<Category>>  = kotlin.runCatching {
-        val categories: List<Category> = httpClientAndroid.get("$BASE_URL/categories").body()
-        return@runCatching categories
+    suspend fun getCategories(): Result<List<Category>> = try {
+        val categories = httpClientAndroid.get("$BASE_URL/categories")
+            .body<List<Category>>()
+
+        Result.success(categories)
+    } catch (e: Exception) {
+        Result.failure(e)
     }
 
-    suspend fun getMarkets(categoryId: String): Result<List<Market>>  = kotlin.runCatching {
-        val markets: List<Market> = httpClientAndroid.get("$BASE_URL/markets/category/${categoryId}").body()
-        return@runCatching markets
+    suspend fun getMarkets(categoryId: String): Result<List<Market>> = try {
+        val markets = httpClientAndroid.get("$BASE_URL/markets/category/${categoryId}")
+            .body<List<Market>>()
+
+        Result.success(markets)
+    } catch (e: Exception) {
+        Result.failure(e)
     }
 
-    suspend fun getMarketDetails(marketId: String): Result<MarketDetails>  = kotlin.runCatching {
-        val market: MarketDetails = httpClientAndroid.get("$BASE_URL/markets/${marketId}").body()
-        return@runCatching market
+    suspend fun getMarketDetails(marketId: String): Result<MarketDetails> = try {
+        val market = httpClientAndroid.get("$BASE_URL/markets/${marketId}")
+            .body<MarketDetails>()
+
+        Result.success(market)
+    } catch (e: Exception) {
+        Result.failure(e)
     }
 
-    suspend fun patchCoupon(marketId: String): Result<Coupon>  = kotlin.runCatching {
-        val coupon: Coupon = httpClientAndroid.patch("$BASE_URL/coupons/${marketId}").body()
-        return@runCatching coupon
+    suspend fun patchCoupon(marketId: String): Result<Coupon> = try {
+        val coupon = httpClientAndroid.patch("$BASE_URL/coupons/${marketId}")
+            .body<Coupon>()
+
+        Result.success(coupon)
+    } catch (e: Exception) {
+        Result.failure(e)
     }
 
 }

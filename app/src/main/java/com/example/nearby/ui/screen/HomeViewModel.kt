@@ -25,6 +25,7 @@ class HomeViewModel : ViewModel() {
 
     private fun fetchCategories() {
         viewModelScope.launch {
+            println("passou")
             _uiState.update { currentState ->
                 RemoteDataSource.getCategories().fold(
                     onSuccess = { categories ->
