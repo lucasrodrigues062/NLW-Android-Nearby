@@ -1,13 +1,11 @@
 package com.example.nearby.ui.component.market
 
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.nearby.data.model.Market
 import com.example.nearby.ui.theme.Typography
@@ -34,18 +32,4 @@ fun MarketCardList(
     }
 
 }
-
-
-@Preview
-@Composable
-private fun MarketCardListPreview() {
-    MarketCardList(
-        Modifier.fillMaxWidth(),
-        listOf(
-            com.example.nearby.utils.createMockMarket("1"),
-            com.example.nearby.utils.createMockMarket("2")
-        ),
-        onMarketClick = {})
-}
-
 

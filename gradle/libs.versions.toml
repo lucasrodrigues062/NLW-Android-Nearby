@@ -13,6 +13,10 @@ coil = "3.0.0-rc01"
 navigation = "2.8.3"
 kotlinSerialization = "1.7.3"
 ktorBom = "3.0.0"
+zxing = "3.5.1"
+zxingAndroidEmbedded = "4.3.0"
+
+
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -40,6 +44,9 @@ ktor-serialization-json = { group = "io.ktor", name = "ktor-serialization-kotlin
 ktor-client-logging = { group = "io.ktor", name = "ktor-client-logging" }
 ktor-client-serialization = { group = "io.ktor", name = "ktor-client-serialization" }
 coil-network-okhttp = { group = "io.coil-kt.coil3", name = "coil-network-okhttp", version.ref = "coil" }
+zxing = { group = "com.google.zxing", name = "core", version.ref = "zxing" }
+zxing-android-embedded = { group = "com.journeyapps", name = "zxing-android-embedded", version.ref = "zxingAndroidEmbedded" }
+
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

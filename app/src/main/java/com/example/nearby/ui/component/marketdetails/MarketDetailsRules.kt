@@ -23,7 +23,7 @@ import com.example.nearby.ui.theme.Typography
 
 
 @Composable
-fun MarketDetailsRules(modifier: Modifier = Modifier, market: Market, rules: List<Rule>) {
+fun MarketDetailsRules(modifier: Modifier = Modifier, rules: List<Rule>) {
     Column(modifier = modifier, verticalArrangement = Arrangement.spacedBy(16.dp)) {
         Text(text = "Regulamento", style = Typography.headlineSmall, color = Gray400)
 
@@ -34,16 +34,13 @@ fun MarketDetailsRules(modifier: Modifier = Modifier, market: Market, rules: Lis
             lineHeight = 24.sp,
             color = Gray500
         )
-
-
-
     }
 }
 
 @Preview
 @Composable
 private fun MarketDetailsPreview() {
-    MarketDetailsRules(Modifier.fillMaxWidth(), market = createMockMarket(), createMockRules())
+    MarketDetailsRules(Modifier.fillMaxWidth(), createMockRules())
 }
 
 private fun createMockRules(): List<Rule> {
